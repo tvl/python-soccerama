@@ -36,4 +36,7 @@ def seasons():
 def bookmakers():
     return get('bookmakers')['data']
 
+def teams(season):
+    return get('teams/season/{}'.format(season))['data']
+
 
