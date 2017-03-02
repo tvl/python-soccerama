@@ -33,4 +33,7 @@ def competitions():
 def seasons():
     return get('seasons')['data']
 
+def bookmakers():
+    return get('bookmakers')['data']
+
 
